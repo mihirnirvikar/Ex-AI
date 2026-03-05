@@ -4,9 +4,15 @@
   "description": "It is terminal based AI assistant like your ex built using Node.js. It provides a command-line interface for users to interact with an AI ex girlfriend. The assistant can respond to user inputs with pre-defined messages, simulating a conversation with an ex-girlfriend.",
   "license": "ISC",
   "author": "Mihir Nirvikar",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "@google/genai": "^1.44.0",
+    "dotenv": "^17.3.1"
   }
 }
