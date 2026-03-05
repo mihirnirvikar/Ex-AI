@@ -1,0 +1,12 @@
+{
+  "name": "ex-ai",
+  "version": "1.0.0",
+  "description": "It is terminal based AI assistant like your ex built using Node.js. It provides a command-line interface for users to interact with an AI ex girlfriend. The assistant can respond to user inputs with pre-defined messages, simulating a conversation with an ex-girlfriend.",
+  "license": "ISC",
+  "author": "Mihir Nirvikar",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
